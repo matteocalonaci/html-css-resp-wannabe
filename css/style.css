@@ -130,7 +130,58 @@ img {
  ************************************************/
 
 @media screen and (max-width: 768px) {
-    body {}
+    .site-header {
+
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .site-header>.text-center {
+        margin: auto;
+    }
+
+
+    .container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .card>.text {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col {
+
+        width: 100%;
+    }
+
+    .why-us {}
+
+    .why-us>.container {
+        margin: auto;
+    }
+
+    .text-center {
+        width: 100%;
+
+    }
+
+
+
+
+
 }
 
 
